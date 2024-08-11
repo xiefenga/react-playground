@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  /*--sash-size: 6;*/
+  /*--focus-border: rgba(128, 128, 128, 0.35);*/
+  /*--separator-border: #838383;*/
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+.icon-button {
+  @apply cursor-pointer hover:text-[#087ea4] transition-colors duration-200;
+}
